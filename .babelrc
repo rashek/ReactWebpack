@@ -1,0 +1,14 @@
+{
+    "presets": [
+        ["@babel/preset-env",
+        {
+            "target":{
+                "browser": ["> 1%", "last 2 version"] 
+            }
+        }],
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties"
+    ]
+}
